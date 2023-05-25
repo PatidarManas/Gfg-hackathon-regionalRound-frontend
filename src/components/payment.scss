@@ -1,0 +1,30 @@
+.success{
+    // background-image: url(../../public/bg.svg);
+    background-color: rgba($color: black, $alpha: 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.payment{
+    background-color: rgba($color: black, $alpha: 0.5);
+    // background-image: url(../../public/bg.svg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    button{
+        border: 0;
+        border-radius: 30px;
+        width: 150px;
+        height: 40px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+}

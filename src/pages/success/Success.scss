@@ -1,0 +1,116 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 30% auto;
+  background-color: #faf1e6;
+  .left {
+    background-color: #064420;
+    height: 100vh;
+    width: 100%;
+
+    .logo {
+      padding: 10px;
+      font-size: 35px;
+      font-family: cursive;
+      color: #5fd068;
+    }
+    .text3 {
+      width: fit-content;
+      margin: 50px auto 0 auto;
+      font-size: 2rem;
+      color: #fdfaf6;
+    }
+    .text4 {
+      color: #fdfaf6;
+      width: fit-content;
+      margin: 10px auto 0 auto;
+      font-size: 1.2rem;
+      font-weight: 100;
+    }
+    .signup {
+      width: 150px;
+      font-size: 1.6rem;
+      font-weight: 200;
+      height: 40px;
+      margin: 50px calc((100% - 152px) / 2);
+      border-radius: 25px;
+      background-color: transparent;
+      border: 2px solid #fdfaf6;
+      color: #fdfaf6;
+      cursor: pointer;
+    }
+    .btn {
+      width: 300px;
+      padding: 0 2px;
+      font-size: 1.6rem;
+      font-weight: 200;
+      height: 40px;
+      margin: 0px calc((100% - 302px) / 2);
+      border-radius: 25px;
+      background-color: transparent;
+      border: 2px solid #fdfaf6;
+      color: #fdfaf6;
+      cursor: pointer;
+    }
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login {
+      width: 450px;
+      background-color: transparent;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 15px;
+
+      .text1 {
+        font-size: 2rem;
+        font-weight: 500;
+        // width: 100%;
+        margin: 0 auto;
+        color: #064420;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+      }
+      input {
+        border: 0;
+        border-radius: 0;
+        background-color: #e4efe7;
+        width: 95%;
+        height: 25px;
+        font-size: 19px;
+        padding: 5px;
+        ::placeholder {
+          padding: 5px;
+          font-size: 19px;
+        }
+      }
+
+      button {
+        width: max-content;
+        font-size: 1.6rem;
+        font-weight: 200;
+        height: 40px;
+        margin: 2px 0 10px 0;
+        border-radius: 25px;
+        background-color: #064420;
+        border: 2px solid #fdfaf6;
+        color: #fdfaf6;
+        cursor: pointer;
+      }
+
+      .text2 {
+        color: black;
+        font-size: 20px;
+        align-items: start;
+        padding: 5px;
+      }
+    }
+  }
+}

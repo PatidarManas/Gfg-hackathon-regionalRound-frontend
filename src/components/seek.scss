@@ -1,0 +1,31 @@
+.payment{
+    // background-image: url(../../public/bg.svg);
+    background-color: rgba($color: black, $alpha: 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .box{
+        background-color: #FAF1E6;
+        padding: 30px;
+        border-radius: 30px;
+        border: 2px solid #064420;
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            label{
+                font-size: 22px;
+                font-weight: 300;
+            }
+            button{
+                cursor: pointer;
+                border: 2px solid #064420;
+            }
+        }
+    }
+}
